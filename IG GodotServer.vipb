@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-03-14 21:56:33" Modified_Date="2024-03-23 21:47:52" Creator="derri" Comments="" ID="67d65cb3e1f985f77cd51fc3f4840152">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-03-14 21:56:33" Modified_Date="2024-08-04 15:11:11" Creator="derri" Comments="" ID="9ed46e99162553498d78c8f14dda7cea">
   <Library_General_Settings>
     <Package_File_Name>IlluminatedG_lib_IG_GodotServer</Package_File_Name>
-    <Library_Version>1.1.0.7</Library_Version>
+    <Library_Version>1.2.0.8</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -37,7 +37,10 @@ When paired with a Godot (or other game engine that supports WebSockets) web exp
       <Copyright/>
       <Packager>Derrick Bommarito</Packager>
       <URL>https://github.com/illuminated-g/lv-godot-wrapper</URL>
-      <Release_Notes>Adds accessor for underlying HTTP server, useful for reviewing trace logs for request handling.</Release_Notes>
+      <Release_Notes>1.2.0.7
+-Add init option to disable browser caching of files. Useful when game engine export is being updated frequently.
+1.1.0.6
+-Adds accessor for underlying HTTP server, useful for reviewing trace logs for request handling.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -317,7 +320,7 @@ When paired with a Godot (or other game engine that supports WebSockets) web exp
         <Path>GodotLV\GodotServer\HTTP Server.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>ED5223E7CE1F9771E8ED480B0F2E40DA</GUID>
+      <GUID>EB0C9BD8F7DE2DD2ADCCA27F5CAF08F3</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
